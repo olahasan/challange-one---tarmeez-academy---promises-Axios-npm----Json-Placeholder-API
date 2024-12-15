@@ -36,7 +36,7 @@ Otherwise, all links will open in the same tab.
 
 - Solution URL: [here](https://github.com/olahasan/challange-one---tarmeez-academy---promises-Axios-npm----Json-Placeholder-API)
 
-- Live Site URL: [here](https://olahasan.github.io/challange-one---tarmeez-academy---promises-Axios-cdn----Json-Placeholder-API/)
+- Live Site URL: [here](https://challange-tarmeez-axios-npm.netlify.app/)
 
 
  ## Screenshot
@@ -51,7 +51,7 @@ Through this project:
 - how to get All Posts For Spacific User after clicked on this post
 - create function that create an element to add it to DOM
 - how to collect between html,css and Js file.
-- how to push it on github + gh-pages
+- how to push it on github + gh-pages and netlify
 
 ## Continued Development
 In the future, I plan to:
