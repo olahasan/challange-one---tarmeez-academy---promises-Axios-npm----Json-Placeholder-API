@@ -1,0 +1,81 @@
+/* global varuables */
+
+/* variables */
+:root {
+  --padding-top-bottom: 5px;
+  --border-radius: 5px;
+  --linear-gradient_one-line: #257180;
+  --title-name-color: #528789;
+  --email-bodyofpost: cadetblue;
+  --linear-gradient_two: #cb6040;
+  --post-user-color: #f2e5bf;
+  --posts-body-color-border: #fd8b51;
+}
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: var(--email-bodyofpost);
+  background-image: linear-gradient(
+    to right,
+    var(--linear-gradient_one-line),
+    var(--linear-gradient_two)
+  );
+}
+/* global varuables */
+
+.container {
+  display: flex;
+  padding: 20px;
+}
+
+/* start users */
+.container .users {
+  flex-basis: 25%;
+  padding: 20px 15px;
+}
+.container .users .user {
+  background-color: var(--post-user-color);
+  padding: 5px 0px 5px 20px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.container .users .user .name {
+  font-weight: bold;
+  font-size: 15px;
+  color: var(--title-name-color);
+}
+.container .users .user .email {
+  font-weight: normal;
+  font-size: 13px;
+}
+.selected {
+  border: 3px solid var(--posts-body-color-border); /* border for selected user */
+}
+/* end users */
+
+/* end posts */
+.container .posts {
+  background-color: var(--posts-body-color-border);
+  flex-basis: 75%;
+  padding: 20px 25px;
+  border-radius: var(--border-radius);
+}
+.container .posts .post {
+  background-color: var(--post-user-color);
+  padding: 10px;
+  border-radius: var(--border-radius);
+  margin-bottom: 10px;
+}
+.container .posts .post .title {
+  border-bottom: 2px solid var(--linear-gradient_one-line);
+  padding-bottom: var(--padding-top-bottom);
+  font-weight: bold;
+  font-size: 15px;
+  color: var(--title-name-color);
+}
+.container .posts .post .body {
+  padding-top: var(--padding-top-bottom);
+}
+/* end posts */
