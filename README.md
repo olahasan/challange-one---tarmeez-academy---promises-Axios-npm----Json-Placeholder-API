@@ -36,7 +36,7 @@ Otherwise, all links will open in the same tab.
 
 - Solution URL: [here](https://github.com/olahasan/challange-one---tarmeez-academy---promises-Axios-npm----Json-Placeholder-API)
 
-- Live Site URL: [here](https://olahasan.github.io/challange-one---tarmeez-academy---promises-Axios-npm----Json-Placeholder-API/)
+- Live Site URL: [here](https://olahasan.github.io/challange-one---tarmeez-academy---promises-Axios-cdn----Json-Placeholder-API/)
 
 
  ## Screenshot
