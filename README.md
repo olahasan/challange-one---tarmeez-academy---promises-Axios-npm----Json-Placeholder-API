@@ -5,6 +5,7 @@ this is a simple Json-Placeholder-API-promises-Axios(cdn) Project trying to (get
 
 - [Overview](#overview)
 - [Installation](#Installation)
+- [Uage](#Uage)
 - [Links](#Links)
 - [Screenshot](#Screenshot)
 - [What I learned](#what-i-learned)
@@ -24,6 +25,13 @@ you can clone the project or download it as Zip file.
    ```bash
    git clone https://github.com/olahasan/challange-one---tarmeez-academy---promises-Axios-npm----Json-Placeholder-API.git
 ```
+
+## Uage
+1. **Clone the Project**: Users can clone the repository using the provided command.
+2. **Install Dependencies**: Running `npm install` will install Axios and any other dependencies specified in your `package.json`.
+3. **Run the Project**: They can start the project with `npm start` and access it in their browser.
+
+   
 
 ## Links
 
